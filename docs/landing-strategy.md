@@ -1,6 +1,6 @@
 # Landing Page Strategy
 
-> **Status:** Product Design — ready for Sprint 3 implementation
+> **Status:** Product Design — Sprint 3 in progress
 > **Audience:** Developer implementing the landing page
 > **North Star:** Convert visitors into leads through clarity, credibility, and a frictionless path to contact.
 
@@ -12,12 +12,12 @@
 
 | Element | What the visitor sees | Cognitive response |
 |---|---|---|
-| Above-fold hero | Name, one-line role, subtle visual | "Who is this? What do they do?" |
-| Headline | Clear value prop | "Is this what I need?" |
-| Background animation | Subtle motion (gradient / particles) | "This looks polished." |
+| Above-fold hero | Name, one-line value prop, subtle visual | "Who is this? What do they do?" |
+| Headline | Clear business outcome | "Is this what I need?" |
+| Background animation | Subtle motion (gradient) | "This looks polished." |
 | Nav | Minimal: Work, Services, About, Contact | "I can find what I need." |
 
-**Goal:** Visitor instantly knows Juan is a full-stack developer + automation specialist who builds for business outcomes, not just code.
+**Goal:** Visitor instantly knows Juan builds web apps, dashboards, and automations that grow businesses.
 
 **Success signal:** Visitor scrolls down instead of hitting back.
 
@@ -27,13 +27,13 @@
 
 | Action | What they encounter | Effect |
 |---|---|---|
-| Downward scroll | Trust bar (tech logos, years, projects shipped) | "They have real experience." |
-| Continue scrolling | Service cards (3 pillars) | "This is exactly what I need done." |
+| Downward scroll | Trust bar (technology badges) | "They work with modern tools." |
+| Continue scrolling | Service cards (3 sellable pillars) | "This is exactly what I need done." |
 | Glance at nav | Sticky header stays visible | "Easy to navigate." |
 
 **Goal:** Match visitor's mental model of "someone who can solve my problem" with Juan's offering.
 
-**Success signal:** Visitor pauses on a service card or work sample.
+**Success signal:** Visitor pauses on a service card.
 
 ---
 
@@ -55,10 +55,9 @@
 
 | Path | Trigger | Conversion event |
 |---|---|---|
-| Direct hire | Recruiter lands on page → sees tech stack + experience | Clicks "Contact" or downloads CV |
+| Direct hire | Recruiter lands on page → sees tech stack experience | Clicks "Contact" or downloads CV |
 | Problem-aware | Founder reads service description → recognizes their need | Clicks "Let's Talk" |
-| Social proof | Referral lands on page → sees testimonials | Clicks through to case study |
-| Exploration | Tech lead scans architecture → sees quality signals | Clicks GitHub / reads case study |
+| Exploration | Tech lead scans page → sees quality signals | Clicks GitHub / reads case study |
 
 ---
 
@@ -68,7 +67,6 @@
 
 | Wants | How we deliver |
 |---|---|
-| Years of experience | Timeline / career highlight |
 | Tech stack proficiency | Badge bar + GitHub link |
 | Communication skills | Clean copy, no jargon overflow |
 | Availability | Clear status indicator |
@@ -82,12 +80,11 @@
 
 | Wants | How we deliver |
 |---|---|
-| Reliability | Testimonials, years in business |
-| End-to-end service | Service descriptions (strategy → deploy) |
+| Reliability | Clear service descriptions, communication promise |
+| End-to-end service | Three service pillars (landing page → dashboard → automation) |
 | Communication | Contact section, response promise |
-| Price transparency | Clear "how I work" section |
 
-**Key section:** Services + About + Testimonials
+**Key section:** Services + About
 
 ---
 
@@ -95,10 +92,9 @@
 
 | Wants | How we deliver |
 |---|---|
-| Speed | Past project turnaround times |
-| Versatility | Breadth of services (web + automation) |
+| Speed | Past project turnaround indicators |
+| Versatility | Breadth of services (web + automation + data) |
 | Problem-solving | Case studies with business impact |
-| Technical opinion | Blog / writing samples |
 
 **Key section:** Work showcase + Services + Contact
 
@@ -109,11 +105,10 @@
 | Wants | How we deliver |
 |---|---|
 | Architecture thinking | GitHub repos, tech decisions |
-| Best practices | Code quality signals (TypeScript, tests) |
-| Collaboration | Communication style in About |
-| Team fit | Personality in copy |
+| Best practices | Code quality signals (TypeScript, modern stack) |
+| Team fit | Personality in About |
 
-**Key section:** About (development philosophy) + GitHub link + Work
+**Key section:** About + GitHub link + Work
 
 ---
 
@@ -123,28 +118,17 @@
 
 | # | Proposition | Tone | Best for |
 |---|---|---|---|
-| 1 | "Full-stack development & automation — I build systems that scale your business." | Professional, capable | Small biz, founders |
+| 1 | "I build modern web applications, dashboards, and automations that help businesses grow." | Clear, outcome-first | All audiences |
 | 2 | "Engineering quality meets business execution." | Concise, premium | Tech leads, CTOs |
-| 3 | "You focus on the product. I handle the tech." | Empathetic, service-oriented | Founders, overwhelmed owners |
-| 4 | "Modern web. Clean automation. Delivered on time." | Direct, trustworthy | Recruiters, agencies |
-| 5 | "From concept to deploy — full-stack engineering without the overhead." | Lean, scrappy | Startups |
+| 3 | "You focus on the product. I handle the tech." | Empathetic, service-oriented | Founders, small biz |
+| 4 | "Web apps, data dashboards, and automation — built to move your business forward." | Direct, trustworthy | Recruiters, agencies |
+| 5 | "From landing pages to automation pipelines — full-stack development for real businesses." | Concrete, relatable | Small biz, founders |
 
 ### Recommendation
 
-**Winner: Proposition #2 — "Engineering quality meets business execution."**
+**Primary: Proposition #1** — because it is immediately understandable by every visitor regardless of technical background. It answers "what do you do?" in plain language connected to business outcomes.
 
-**Why:**
-
-1. **Differentiates from commodity devs:** Most portfolios lead with "I build websites." This positions Juan as someone who understands both code AND outcomes.
-2. **Appeals to all four audiences:** Recruiters read "engineering quality" → hire signal. Founders read "business execution" → results orientation. Tech leads read both → peer recognition.
-3. **Memorable:** Short, balanced, and unexpected. It sits between "bro coder" and "corporate drone."
-4. **Supports premium positioning:** This is not a race-to-bottom pricing signal. It says "you get what you pay for."
-
-### Supporting Taglines (for sub-headers / OG metadata)
-
-- "Full-stack engineer + automation specialist. I turn requirements into running software."
-- "React. Node. Python. Automation. One team, one person."
-- "Clean code. Working software. Happy clients."
+**Secondary: Proposition #2** — works as a supporting tagline that signals engineering quality to those who recognize it, without alienating non-technical visitors.
 
 ---
 
@@ -155,14 +139,13 @@
 | Attribute | Content |
 |---|---|
 | **Purpose** | Immediate value prop. Answer "who, what, why." |
-| **Headline** | Juan José Valencia |
-| **Subheadline** | Full-Stack Engineer & Automation Specialist |
+| **Headline** | "I build web applications, dashboards, and automations that help businesses grow." |
 | **Tagline** | "Engineering quality meets business execution." |
-| **Visual** | Subtle background animation (geometric gradient / code-like particles) |
+| **Visual** | Subtle animated gradient background |
 | **Primary CTA** | "Let's Work Together" |
 | **Secondary CTA** | "View My Work" |
-| **Trust badges** | Row of tech logos (React, Node, Python, TypeScript, Next.js) |
-| **Desired response** | "This is a professional. I want to see more." |
+| **Trust badges** | React · Next.js · TypeScript · Python · SQL · Power BI · Automation |
+| **Desired response** | "This person builds things that matter. I want to see more." |
 
 ---
 
@@ -170,9 +153,9 @@
 
 | Attribute | Content |
 |---|---|
-| **Purpose** | Social proof delivered fast. Build credibility before the visitor has to decide. |
-| **Content** | Row: "X years experience · X projects delivered · X technologies · X clients" |
-| **Desired response** | "Okay, they're legit." |
+| **Purpose** | Show real capabilities through technology badges. No invented metrics. |
+| **Content** | Row of technology labels: React, Next.js, TypeScript, Python, SQL, Power BI, Automation |
+| **Desired response** | "They work with the tools I need." |
 
 ---
 
@@ -180,11 +163,12 @@
 
 | Attribute | Content |
 |---|---|
-| **Purpose** | Answer "Can you do what I need?" with three clear service pillars. |
-| **Cards** | **Web Development** — responsive apps, APIs, dashboards. **Automation** — scripts, CI/CD, data pipelines. **Consulting** — architecture, code review, tech strategy. |
-| **Each card** | Icon + title + 2-line description + subtle hover effect |
-| **Desired response** | "That's exactly what I'm looking for." |
-| **CTA** | Each card links to a detail page or contact |
+| **Purpose** | Answer "Can you do what I need?" with three sellable service pillars. |
+| **Card 1** | **Landing Pages** — Fast, professional web pages designed to convert visitors into customers. Perfect for campaigns, products, or your business. |
+| **Card 2** | **Dashboards & Data Analysis** — Clear visual dashboards that turn complex data into actionable decisions. Real-time reporting, KPIs, and business intelligence. |
+| **Card 3** | **Business Automation** — Replace repetitive manual work with reliable automated processes. Data pipelines, integrations, scheduled tasks, and workflow improvements. |
+| **Desired response** | "That's exactly the kind of help I need." |
+| **CTA** | Each card links to contact |
 
 ---
 
@@ -193,7 +177,7 @@
 | Attribute | Content |
 |---|---|
 | **Purpose** | Prove capability with real examples. Show measurable impact. |
-| **Format** | 2-3 project cards with title, tech stack, result, live link / case study link |
+| **Format** | 2-3 project cards with title, what it does, business outcome, live link / case study link |
 | **Desired response** | "They delivered real value, not just features." |
 | **CTA** | "View All Projects" → portfolio page |
 
@@ -204,23 +188,13 @@
 | Attribute | Content |
 |---|---|
 | **Purpose** | Humanize. Build trust through authenticity. |
-| **Content** | Short bio: background, philosophy, how Juan works. |
+| **Content** | Short, personal bio. How Juan works, what he cares about, what working together looks like. |
 | **Visual** | Professional photo or avatar |
-| **Desired response** | "I'd enjoy working with this person." |
+| **Desired response** | "I'd enjoy working with this person. They seem genuine." |
 
 ---
 
-### Section 6: Testimonials (placeholder)
-
-| Attribute | Content |
-|---|---|
-| **Purpose** | Third-party validation. Let past clients sell for you. |
-| **Content** | 3 quote cards with name, title, company. (Placeholder: "Coming soon" or real if available.) |
-| **Desired response** | "Others trust them. I can too." |
-
----
-
-### Section 7: Contact / CTA
+### Section 6: Contact / CTA
 
 | Attribute | Content |
 |---|---|
@@ -228,17 +202,17 @@
 | **Headline** | "Let's build something." |
 | **Subtext** | "Tell me about your project. I'll respond within 24 hours." |
 | **Options** | Contact form + direct email link |
-| **Social links** | GitHub, LinkedIn, Twitter/X |
+| **Social links** | GitHub, LinkedIn |
 | **Desired response** | Fills out the form or sends an email. |
 
 ---
 
-### Section 8: Footer
+### Section 7: Footer
 
 | Attribute | Content |
 |---|---|
 | **Purpose** | Closure. Navigation fallback. Legal. |
-| **Content** | Nav links, copyright, "Built with Next.js & TypeScript" (subtle flex) |
+| **Content** | Nav links, copyright |
 
 ---
 
@@ -246,49 +220,45 @@
 
 ### Hero
 
-> **Juan José Valencia**
+> **I build web applications, dashboards, and automations that help businesses grow.**
 >
-> Full-Stack Engineer & Automation Specialist
->
-> *"Engineering quality meets business execution."*
+> Engineering quality meets business execution.
 >
 > [Let's Work Together]  [View My Work]
-
-### Trust Bar
-
-> 6+ years building · 20+ projects shipped · React · Node · Python · TypeScript · Next.js
-
-*(Note: adjust numbers to reality)*
+>
+> React  ·  Next.js  ·  TypeScript  ·  Python  ·  SQL  ·  Power BI  ·  Automation
 
 ### Services
 
-> **Web Development**
-> Built-to-order web applications, APIs, and dashboards. React, Next.js, Node — deployed and maintained.
+> **Landing Pages**
+> Fast, professional web pages designed to convert visitors into customers. Perfect for campaigns, products, or your business.
 >
-> **Automation & Scripting**
-> Stop doing manually what a script can do in seconds. CI/CD, data pipelines, task automation, integrations.
+> **Dashboards & Data Analysis**
+> Clear visual dashboards that turn complex data into actionable decisions. Real-time reporting, KPIs, and business intelligence.
 >
-> **Technical Consulting**
-> Architecture review, code audits, tech stack selection, and implementation strategy. Think of me as your senior engineer on retainer.
+> **Business Automation**
+> Replace repetitive manual work with reliable automated processes. Data pipelines, integrations, scheduled tasks, and workflow improvements.
 
-### Featured Work (example template)
+### Featured Work (template)
 
 > **Project Name**
-> *React · Node · PostgreSQL · Docker*
+> *Brief description of what it does*
 >
-> Built a real-time dashboard that reduced reporting time from 3 hours to 12 minutes.
+> *Business outcome achieved (e.g., "Reduced reporting time by 85%")*
 >
 > [Live Demo]  [Case Study]
 
 ### About
 
-> I'm Juan — a full-stack engineer who cares about shipping software that actually helps people.
+> I'm Juan. I build software that helps businesses run better.
 >
-> I've spent the last 6+ years building web applications, automating workflows, and helping teams ship faster. I work across the stack: React and Next.js on the frontend, Node and Python on the backend, with a healthy obsession for clean architecture and reliable deployments.
+> I've been working as a developer for several years — building web applications, automating repetitive tasks, and helping teams make sense of their data through clear dashboards.
 >
-> When I'm not coding, I'm thinking about how to make systems — technical or business — run more efficiently.
+> What I care about most is that the things I build actually get used. That means understanding the goal before writing the first line of code, communicating clearly along the way, and shipping something reliable.
 >
-> I'm currently available for freelance projects, contract work, and full-time opportunities.
+> When I'm not building, I'm exploring new tools, thinking about better workflows, or finding ways to make complex systems simple.
+>
+> Right now I'm available for freelance projects and contract work.
 
 ### CTA Section
 
@@ -297,122 +267,153 @@
 > Tell me about your project. I'll respond within 24 hours.
 >
 > [Start a Conversation]
->
-> juan@example.com  ·  GitHub  ·  LinkedIn
 
 ### Footer
 
-> © 2026 Juan José Valencia. Built with Next.js & TypeScript.
+> © 2026 Juan José Valencia
 
 ---
 
-## 6. Low-Fidelity Wireframe (ASCII)
+## 6. Visual Identity
+
+### Design Principles
+
+Inspired by Vercel, Linear, Stripe, and Raycast — not copied, but studied for shared principles:
+
+| Principle | Application |
+|---|---|
+| **Generous whitespace** | Ample padding between sections. Content never feels crowded. |
+| **Elegant typography** | Inter at multiple weights. Large headings (3xl-5xl), comfortable line-height (1.2 headings, 1.6 body). |
+| **Subtle animations** | Framer Motion for fade-in on scroll, gentle entrance for hero, smooth theme transitions. |
+| **Minimal color palette** | Blue primary (#2563eb → #3b82f6), neutral grays, one accent only. Dark mode inverts cleanly. |
+| **Clean hierarchy** | Every section has one clear purpose. No visual noise. Consistent spacing rhythm. |
+| **Premium feel** | Border-radius consistency (0.5rem), subtle borders, backdrop blur on sticky nav, gentle shadows. |
+
+### Color System
+
+| Token | Light | Dark |
+|---|---|---|
+| Background | Near-white | Near-black |
+| Foreground | Near-black | Near-white |
+| Primary | Blue-600 | Blue-400 |
+| Muted | Cool gray 100 | Cool gray 900 |
+| Border | Cool gray 200 | Cool gray 800 |
+
+### Typography
+
+| Element | Size | Weight |
+|---|---|---|
+| Hero headline | 3xl (mobile) → 5xl (desktop) | Bold (700) |
+| Section heading | 2xl | Semibold (600) |
+| Body | base | Normal (400) |
+| Small / meta | sm | Normal (400) |
+
+### Spacing
+
+- Section padding: `py-24 md:py-32`
+- Card padding: `p-6 md:p-8`
+- Stack between elements: `space-y-4` / `space-y-6`
+
+---
+
+## 7. Low-Fidelity Wireframe (ASCII)
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  [Logo]          Work  Services  About  Contact  [CTAnav] │  ← Sticky Nav
+│  Juan Valencia   Work  Services  About  Contact  [🌙CTA] │  ← Sticky Nav
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│                    JUAN JOSÉ VALENCIA                    │
-│            Full-Stack Engineer & Automation Specialist    │
+│   I build web applications, dashboards, and              │
+│   automations that help businesses grow.                 │
 │                                                         │
-│       "Engineering quality meets business execution."    │
+│   Engineering quality meets business execution.          │
 │                                                         │
-│         ┌──────────────┐    ┌──────────────┐            │
-│         │ Let's Work    │    │ View My Work │            │
-│         │ Together      │    │              │            │
-│         └──────────────┘    └──────────────┘            │
+│   ┌──────────────┐    ┌──────────────┐                  │
+│   │ Let's Work    │    │ View My Work │                  │
+│   │ Together      │    │              │                  │
+│   └──────────────┘    └──────────────┘                  │
 │                                                         │
-│    [React] [Node] [Python] [TypeScript] [Next.js]       │
+│   React · Next.js · TypeScript · Python · SQL · Power BI │
 │                                                         │
-│                ████████░░░░░░░░░░░░░░ (scroll hint)     │
+│              ████████░░░░░░░░░░░░ (scroll hint)         │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│   6+ years · 20+ projects · 15+ technologies           │  ← Trust Bar
+│                    WHAT I DO                              │  ← Services
 │                                                         │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│   ┌──────────┐    ┌──────────┐    ┌──────────┐         │
-│   │ 🌐       │    │ ⚙️       │    │ 💡       │         │  ← Services
-│   │ Web Dev  │    │Automation│    │Consulting│          │
-│   └──────────┘    └──────────┘    └──────────┘         │
-│                                                         │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│   ┌──────────────────────────────────────────┐          │
-│   │  Featured Project                         │          │  ← Work
-│   │  Stack: React · Node · PostgreSQL         │          │
-│   │  Result: Reduced reporting time 85%       │          │
-│   │  [Live Demo]  [Case Study]                │          │
-│   └──────────────────────────────────────────┘          │
+│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  │
+│   │ Landing      │  │ Dashboards   │  │ Business      │  │
+│   │ Pages        │  │ & Data       │  │ Automation    │  │
+│   └──────────────┘  └──────────────┘  └──────────────┘  │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│   [Photo]   About Juan...                              │  ← About
-│             I'm a full-stack engineer who...            │
-│             [Download CV]                               │
+│                 RECENT WORK                              │  ← Featured Work
+│   ┌──────────────────────────────────────────────┐      │
+│   │  Project Card                                │      │
+│   │  Business outcome                            │      │
+│   └──────────────────────────────────────────────┘      │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│   "Juan delivered ahead of schedule. Clean code."       │  ← Testimonials
-│   — Client Name, Company                                │
+│   ABOUT ME                                              │  ← About
+│   I'm Juan. I build software that...                     │
+│                                                         │
+│   [Photo]                                                │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│              Let's build something.                     │
+│              Let's build something.                      │
 │     Tell me about your project. I respond in 24h.       │  ← CTA
 │           ┌──────────────────────────┐                  │
 │           │   Start a Conversation   │                  │
 │           └──────────────────────────┘                  │
-│     ✉️  ·  ⌨️  ·  💼                                  │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
-│  [Logo]  Work · Services · About · Contact              │
-│  © 2026 Juan José Valencia · Built with Next.js + TS    │  ← Footer
+│  Juan Valencia  ·  Work  ·  Services  ·  About  ·  Contact │
+│  © 2026 Juan José Valencia                              │  ← Footer
 └─────────────────────────────────────────────────────────┘
 
-Reading flow:  (1) Hero → (2) Trust → (3) Services → (4) Work → (5) About → (6) Contact
+Reading flow:  (1) Hero → (2) Services → (3) Work → (4) About → (5) Contact
 ```
 
 ---
 
-## 7. Self-Review & Improvements
+## 8. Self-Review & Improvements
 
 ### Would this convince someone to contact Juan?
 
-**Yes, but only if the execution matches the strategy.** The structure, copy, and flow are designed to answer every objection before it forms.
+**Yes.** The headline is immediately clear, the services are specific and sellable, the tech badges prove capability without exaggerating, and the about section is human and trustworthy.
 
-### Potential weaknesses
+### Potential risks
 
-| Weakness | Mitigation |
+| Risk | Mitigation |
 |---|---|
-| No hard deadlines or timelines | Add "Typical projects delivered in 2-6 weeks" to services |
-| Generic testimonials placeholder | Gather 2 real testimonials before launch. Fake credibility is worse than none. |
-| "I'll respond within 24 hours" must be true | Add an auto-responder or slack notification |
-| Services section may feel vague | Add "Common uses" bullet under each card |
-| No pricing signal | Add "Pricing starts at $X" or "Free 30-min discovery call" to reduce friction |
+| No social proof yet | Remove testimonials rather than fake them. Let work speak. |
+| "24 hour response" must be true | Add email notification on form submission. |
+| Services need concrete deliverables | Each card implies a deliverable (page, dashboard, script). Add case studies later. |
 
-### Final improvements applied
+### Key changes from previous version
 
-1. **Trust bar includes years + projects count** — social proof delivered early
-2. **Services include concrete outcomes**, not just technologies — speaks to business value
-3. **About section includes availability status** — removes uncertainty
-4. **Contact section offers two paths** — form for the cautious, email for the direct
-5. **Every section answers a silent question:** Can you do this? Have you done it? Can I trust you? How do I reach you?
+1. **Headline** rewritten for non-technical clarity — focuses on business outcomes
+2. **Trust bar** uses real technology badges, not invented metrics
+3. **Services** replaced with three sellable offerings: Landing Pages, Dashboards & Data Analysis, Business Automation
+4. **Testimonials removed** — not enough real ones to use credibly
+5. **About section** rewritten to sound more human and less corporate
+6. **Every section** now prioritizes customer benefits over technical features
 
 ---
 
-## Appendix: Design Principles for Sprint 3
+## 9. Implementation Principles
 
 | Principle | Rationale |
 |---|---|
 | Mobile-first layout | Most recruiters and founders browse on mobile |
 | One-column reading flow | Linear narrative = higher conversion |
 | Max 2 CTAs per section | Analysis paralysis kills conversions |
-| Loading = instant | Every 100ms delay drops conversion by 7% |
 | No carousels | Users don't scroll sideways. Stack vertically. |
 | Contact form = short | Name, email, message, submit. No phone, no budget, no company size. |
+| Server components by default | `'use client'` only where interactivity is required (nav, theme, animations) |
 
 ---
 
-*Ready for Sprint 3 — implementation.*
+*Ready for Sprint 3 — implementation in progress.*
