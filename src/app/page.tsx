@@ -1,7 +1,10 @@
 import { Hero } from "@/components/sections/hero";
 import { Proof } from "@/components/sections/proof";
 import { Services } from "@/components/sections/services";
-import { FeaturedWork } from "@/components/sections/featured-work";
+import { Ecosystem } from "@/components/sections/ecosystem";
+import { About } from "@/components/sections/about";
+import { Contact } from "@/components/sections/contact";
+import { Footer } from "@/components/layout/footer";
 
 export default function Home() {
   return (
@@ -9,7 +12,10 @@ export default function Home() {
       <Hero />
       <Proof />
       <Services />
-      <FeaturedWork />
+      <Ecosystem />
+      <About />
+      <Contact />
+      <Footer />
     </main>
   );
 }

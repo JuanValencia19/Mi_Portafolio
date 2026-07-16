@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 
 import { Button } from '@/components/ui/button'
-import { Glow } from '@/components/ui/glow'
 import { DashboardMockup } from '@/components/ui/dashboard-mockup'
 import { TechMarquee } from '@/components/ui/tech-marquee'
 import { easeInOut } from '@/lib/motion'
@@ -12,7 +11,7 @@ export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div
-        className="absolute inset-0 opacity-[0.025] dark:opacity-[0.04]"
+        className="absolute inset-0 opacity-[0.02] dark:opacity-[0.05] pointer-events-none"
         style={{
           backgroundImage: [
             'linear-gradient(to right, color-mix(in srgb, var(--color-primary) 10%, transparent) 1px, transparent 1px)',
@@ -22,21 +21,15 @@ export function Hero() {
         }}
       />
 
-      <Glow
-        className="top-1/2 right-0 -translate-y-1/2 opacity-25 dark:opacity-30"
-        color="color-mix(in srgb, var(--color-primary) 40%, transparent)"
-        size="lg"
-      />
-      <Glow
-        className="top-[45%] right-[8%] -translate-y-1/2 opacity-30 dark:opacity-35"
-        color="rgba(139, 92, 246, 0.35)"
-        size="md"
-      />
-      <Glow
-        className="top-1/2 right-[5%] -translate-y-1/2 opacity-35 dark:opacity-40"
-        color="rgba(6, 182, 212, 0.4)"
-        size="sm"
-      />
+      <div className="absolute top-1/2 right-[5%] -translate-y-1/2 w-[800px] h-[800px] pointer-events-none">
+        <div
+          className="absolute inset-0 rounded-full blur-3xl opacity-25 dark:opacity-40"
+          style={{
+            background:
+              'radial-gradient(ellipse at center, color-mix(in srgb, var(--color-primary) 25%, transparent) 0%, transparent 60%)',
+          }}
+        />
+      </div>
 
       <div className="w-full mx-auto max-w-7xl px-6 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -77,9 +70,11 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2, ease: easeInOut }}
-            className="relative lg:-mr-16"
+            className="flex items-center justify-center"
           >
-            <DashboardMockup />
+            <div className="w-full max-w-2xl">
+              <DashboardMockup />
+            </div>
           </motion.div>
         </div>
       </div>

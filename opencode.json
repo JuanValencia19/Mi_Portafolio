@@ -12,19 +12,16 @@
       ],
       "enabled": true
     },
+
     "git": {
       "type": "local",
-      "command": ["uvx", "mcp-server-git"],
-      "enabled": false
+      "command": ["npx", "-y", "mcp-server-git"],
+      "enabled": true
     },
-    "github": {
-      "type": "remote",
-      "url": "https://api.githubcopilot.com/mcp/",
-      "enabled": true,
-      "oauth": false,
-      "headers": {
-        "Authorization": "Bearer {env:GITHUB_PERSONAL_ACCESS_TOKEN}"
-      }
+    "fetch": {
+      "type": "local",
+      "command": ["npx", "-y", "mcp-server-fetch"],
+      "enabled": true
     },
     "context7": {
       "type": "remote",
@@ -48,11 +45,6 @@
       "type": "local",
       "command": ["npx", "-y", "@modelcontextprotocol/server-memory"],
       "enabled": true
-    },
-    "fetch": {
-      "type": "local",
-      "command": ["uvx", "mcp-server-fetch"],
-      "enabled": false
     }
   }
 }

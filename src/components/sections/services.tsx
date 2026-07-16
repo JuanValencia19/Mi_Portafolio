@@ -54,7 +54,7 @@ export function Services() {
               <motion.div
                 key={service.title}
                 variants={staggerItem}
-                className="group relative rounded-xl border p-7 md:p-9 transition-all duration-300 hover:-translate-y-1 hover:border-primary/50"
+                className="group relative rounded-xl border p-7 md:p-9 dark:bg-elevated transition-all duration-300 hover:-translate-y-1 hover:border-primary/50"
                 style={{ transitionTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)' }}
               >
                 <span className="block text-4xl font-mono font-bold text-primary/15 dark:text-primary/20 leading-none mb-6 select-none">
