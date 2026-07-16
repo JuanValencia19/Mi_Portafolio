@@ -6,6 +6,14 @@ Contexto persistente entre sesiones del agente.
 
 Portfolio profesional personal. Tecnología: Next.js App Router + TypeScript + Tailwind CSS + shadcn/ui + Framer Motion. Hosting y dominio pendientes de definir.
 
+## Política de trabajo
+
+Ningún cambio importante se implementa el mismo día en que se propone.
+1. Design Review
+2. Aprobación
+3. Implementación
+4. Post-Implementation Review (antes vs. después)
+
 ## Decisiones activas
 
 - **Headline:** outcome-first copy, not technical jargon. *"I build web applications, dashboards, and automations that help businesses grow."*

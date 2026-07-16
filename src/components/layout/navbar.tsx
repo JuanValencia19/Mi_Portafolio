@@ -9,10 +9,10 @@ import { ThemeToggle } from '@/components/layout/theme-toggle'
 import { cn } from '@/lib/utils'
 
 const navItems = [
-  { label: 'Work', href: '#work' },
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Sistemas', href: '#sistemas' },
+  { label: 'Capacidades', href: '#capacidades' },
+  { label: 'Sobre mí', href: '#sobre-mi' },
+  { label: 'Contacto', href: '#contacto' },
 ]
 
 export function Navbar() {
@@ -36,13 +36,15 @@ export function Navbar() {
     >
       <nav
         className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
-        aria-label="Main navigation"
+        aria-label="Navegación principal"
       >
         <Link
           href="/"
-          className="text-lg font-semibold tracking-tight"
+          className="flex items-center gap-2 text-lg font-semibold tracking-tight"
         >
-          Juan Valencia
+          <span className="size-2 rounded-full bg-active" />
+          <span>Juan José Valencia</span>
+          <span className="sr-only">Disponible</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
@@ -59,13 +61,13 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <ThemeToggle />
-          <Button className="hidden md:inline-flex">Let's Talk</Button>
+          <Button className="hidden md:inline-flex">Trabajemos juntos</Button>
           <Button
             variant="ghost"
             size="icon"
             className="md:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Toggle menu"
+            aria-label="Abrir menú"
           >
             {mobileOpen ? <X /> : <Menu />}
           </Button>
@@ -84,7 +86,7 @@ export function Navbar() {
               {item.label}
             </a>
           ))}
-          <Button className="w-full">Let's Talk</Button>
+          <Button className="w-full">Trabajemos juntos</Button>
         </div>
       )}
     </header>

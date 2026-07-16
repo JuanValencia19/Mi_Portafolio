@@ -1,38 +1,43 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Activity, Briefcase } from 'lucide-react'
+
+import { fadeInUp } from '@/lib/motion'
 
 const buildingItems = [
-  { name: 'LifeOS', status: 'In Progress' },
-  { name: 'Valencia Studio', status: 'In Progress' },
-  { name: 'Personal Portfolio', status: 'In Progress' },
+  { name: 'LifeOS', status: 'En desarrollo' },
+  { name: 'Valencia Studio', status: 'En desarrollo' },
+  { name: 'Portfolio Personal', status: 'En desarrollo' },
 ]
 
 const availabilityItems = [
-  'Full-Time',
+  'Tiempo completo',
   'Freelance',
-  'Remote',
+  'Remoto',
   'Colombia',
-  'International',
+  'Internacional',
 ]
 
 export function Proof() {
   return (
-    <section className="py-20 md:py-28">
+    <section className="py-16 md:py-20">
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        variants={fadeInUp}
+        initial="hidden"
+        whileInView="visible"
         viewport={{ once: true, margin: '-100px' }}
-        transition={{ duration: 0.5 }}
         className="mx-auto max-w-5xl px-6"
       >
+        <p className="text-xs font-mono text-muted-foreground tracking-widest uppercase mb-8 text-center">
+          // estado actual
+        </p>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <Activity className="size-4 text-primary" />
+              <span className="size-1.5 rounded-full bg-idle" />
               <h2 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-                Currently Building
+                Current Builds
               </h2>
             </div>
             <ul className="space-y-4">
@@ -42,7 +47,8 @@ export function Proof() {
                   className="flex items-center justify-between"
                 >
                   <span className="text-base font-medium">{item.name}</span>
-                  <span className="text-xs font-mono text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded-full">
+                  <span className="inline-flex items-center gap-1.5 text-xs font-mono text-idle">
+                    <span className="size-1 rounded-full bg-idle" />
                     {item.status}
                   </span>
                 </li>
@@ -52,16 +58,16 @@ export function Proof() {
 
           <div className="md:pl-12 md:border-l">
             <div className="flex items-center gap-2 mb-6">
-              <Briefcase className="size-4 text-primary" />
+              <span className="size-1.5 rounded-full bg-active" />
               <h2 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-                Available For
+                Disponible para
               </h2>
             </div>
             <div className="flex flex-wrap gap-2">
               {availabilityItems.map((item) => (
                 <span
                   key={item}
-                  className="text-sm px-3 py-1.5 rounded-full border bg-muted/50 text-muted-foreground"
+                  className="text-sm px-3 py-1.5 rounded-full border bg-muted/50 text-muted-foreground transition-colors hover:border-primary/50 hover:bg-muted"
                 >
                   {item}
                 </span>
